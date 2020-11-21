@@ -1,12 +1,9 @@
-#include <string>
-#include <iostream>
-
 class IteratorFacadeAccess {
     template<typename Derived, typename Value, typename Category,
             typename Reference, typename Distance>
     friend class IteratorFacade;
 
-    // 所有迭代器的要求
+    //all iterator interface:
     template<typename Reference, typename Iterator>
     static Reference dereference(Iterator const& i)
     {
@@ -27,7 +24,7 @@ class IteratorFacadeAccess {
         return i.equals(other);
     }
 
-    // 双向迭代器的要求
+    //require bidirectional iterator:
     template<typename Iterator>
     static void decrement(Iterator& i)
     {
@@ -35,7 +32,7 @@ class IteratorFacadeAccess {
     }
 
 
-    // 随机访问迭代器的要求
+    //require random access iterator:
     template<typename Iterator, typename Distance>
     static void advance(Iterator& i, Distance n)
     {
@@ -173,7 +170,7 @@ private:
     }
 
     static difference_type measureDistance_helper(IteratorFacade const& lhs,
-                                              IteratorFacade const& rhs){
+                                                  IteratorFacade const& rhs){
         return IteratorFacadeAccess::measureDistance<difference_type>(lhs.asDerived(),rhs.asDerived());
     }
 
@@ -202,6 +199,10 @@ class ProjectionIterator:public IteratorFacade<
     //implement:
     T& dereference()const{
         return (*iter).*member;
+    }
+
+    T* arrow()const{
+        return &dereference();
     }
 
     void increment(){
