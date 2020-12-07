@@ -51,7 +51,22 @@
 
 ## 16.Specialization and Overloading /特化和重载
 
-* 
+* [16.1 When “Generic Code“ Doesn't Quiet Cut It /当“泛型代码不是很好地解决问题”时](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1%20When%20Generic%20Code%20Doesn't%20Quiet%20Cut%20It.md)
+* [16.1.1 Transparent Customization /透明定制](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.1%20Transparent%20Customization.md)
+* [16.1.2 Semantic Transparency /语义透明度](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.2%20Semantic%20Transparency.md)
+* [16.2 Overloading Function Templates /重载函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2%20Overloading%20Function%20Templates.md)
+* [16.2.1 Signatures /签名式](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.1%20Signatures.md)
+* [16.2.2 Partial Ordering of Overloaded Function Templates](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.2%20Partial%20Ordering%20of%20Overloaded%20Function%20Templates.md)
+* [16.2.3 Formal Ordering Rules /正式排序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.3%20Formal%20Ordering%20Rules.md)
+* [16.2.4 Templates and Nontemplates /模板和非模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.4%20Templates%20and%20Nontemplates.md)
+* [16.2.5 Varadic Function Templates /可变函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.5%20Variadic%20Function%20Templates.md)
+* [16.3 Explicit Specialization /显式特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3%20Explicit%20Specialization.md)
+* [16.3.1 Full Class Template Specialization /类模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.1%20Full%20Class%20Template%20Specialization.md)
+* [16.3.2 Full Function Templates Specialization /函数模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.2%20Full%20Function%20Template%20Specialization.md) 
+* [16.3.3 Full Variable Templates Specialization /变量模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.3%20Full%20Variable%20Template%20Specialization.md)
+* [16.3.4 Full Member Specialization /成员的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.4%20Full%20Member%20Specialization.md)
+* [16.4 Partial Class Templates Specialization /类模板的偏特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.4%20Partial%20Class%20Template%20Specialization.md)
+* [16.5 Partial Variable Templates Specialization /变量模板的偏特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.5%20Partial%20Variable%20Template%20Specialization.md) 
 
 # 第三部分：模板和设计
 

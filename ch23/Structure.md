@@ -33,7 +33,7 @@ C++17前，递归和特化或重载结合，特化或重载用于终止递归（
 
 C++17后，有了`折叠表达式`这个语法糖，简化了迭代写法
 
-实际上在`constexpr函数`中用`while/for`语句也能在编译时循环
+实际上在`constexpr函数`中用`while/for`语句也能在编译时循环([*constexpr evaluation*](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch23/23.1.1%20Value%20Metaprogramming.md))
 
 # 应用（作用）
 
