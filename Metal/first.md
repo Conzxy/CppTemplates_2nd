@@ -37,7 +37,7 @@ struct has_integral_value_impl<val, typename
 
 你如果要用bool设计，就得准备两个bool，因为有两个谓词，随着谓词的数目增多，bool的参数个数也会随之增多，这种设计是欠缺考虑的，你可能会说设置默认bool为true，然后后面谓词按该方式设置，很抱歉，偏特化规定：`非类型参数只能为非依赖性或plain`，因此，设置默认类型才是合适的方式√
 
-这其实就是元编程的编译时测试，`std::true_type`和`std::false_type`可以视为tag（当然只是视作，和tag dispatching是有区别的，这个依赖的是偏特化的规范）
+这其实就是元编程的编译时测试，`std::true_type`和`std::false_type`可以视为tag（当然只是视作，和tag dispatching是有区别的，这个依赖的是偏特化）
 
 # integral/enum谓词
 
@@ -72,7 +72,7 @@ struct has_integral_value_impl<val,typename
 template<class val>
 struct has_integral_value_impl<val,typename
     						   std::is_member_pointer<
-    						   decltype(val::value)>::type>
+    						   decltype(&val::value)>::type>
     :std::false_type{};
 
 template<class val,class =std::true_type>
