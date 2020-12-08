@@ -56,7 +56,7 @@
 * [16.1.2 Semantic Transparency /语义透明度](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.2%20Semantic%20Transparency.md)
 * [16.2 Overloading Function Templates /重载函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2%20Overloading%20Function%20Templates.md)
 * [16.2.1 Signatures /签名式](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.1%20Signatures.md)
-* [16.2.2 Partial Ordering of Overloaded Function Templates](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.2%20Partial%20Ordering%20of%20Overloaded%20Function%20Templates.md)
+* [16.2.2 Partial Ordering of Overloaded Function Templates /重载函数模板的偏序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.2%20Partial%20Ordering%20of%20Overloaded%20Function%20Templates.md)
 * [16.2.3 Formal Ordering Rules /正式排序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.3%20Formal%20Ordering%20Rules.md)
 * [16.2.4 Templates and Nontemplates /模板和非模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.4%20Templates%20and%20Nontemplates.md)
 * [16.2.5 Varadic Function Templates /可变函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.5%20Variadic%20Function%20Templates.md)
