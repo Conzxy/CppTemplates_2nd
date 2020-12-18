@@ -21,7 +21,7 @@
 
 *Meta-*根义为：关于某事自身的某事,i.e. XX的XX
 
-因此前面的*metafunction forwarding*中**元函数**就是指的关于函数的函数，转发得到的函数就是元函数
+因此前面的*metafunction forwarding*中**元函数**就是指的关于`函数概念`的函数，而不是关于`函数行为`的函数(Functor)
 
 Metaprogramming就是关于程序的程序，即上面所提到的
 

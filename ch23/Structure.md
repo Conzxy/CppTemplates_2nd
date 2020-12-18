@@ -120,7 +120,7 @@ struct conditional{
 };
 
 template<>
-struct conditional<false,T,F>{
+struct conditional<false>{
     template<typename T,typename F>
     using type=F;
 };
