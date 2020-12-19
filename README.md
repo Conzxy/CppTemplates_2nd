@@ -12,7 +12,7 @@
   * [1.1.1 Defining the Template /定义模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.1.1%20Defining%20the%20Template.md)
   * [1.1.2 Using the Template /使用模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.1.2%20Using%20the%20Template.md)
   * [1.1.3 Two-phase Translation /二阶段翻译](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.1.3%20Two-Phase%20Translation.md)
-* [1.2 Template Argument Deduction /模板实参](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.2%20Template%20Argument%20Deduction.md)
+* [1.2 Template Argument Deduction /模板实参推断](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.2%20Template%20Argument%20Deduction.md)
 * [1.3 Multiple Template Parameters /多模板参数](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.3%20Multiple%20Template%20Parameters.md)
   * [1.3.1 Template Parameters for Return Types /属于返回类型的模板参数](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.3.1%20Template%20Parameters%20for%20Return%20Types.md)
   * [1.3.2 Deducing the Return Type /推断返回类型](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch1/1.3.2%20Deducing%20the%20Return%20Type.md)
@@ -127,5 +127,6 @@
 
 由于本章偏于应用，仅提供代码
 
-[Typelist](https://github.com/Conzxy/TinySTL/blob/master/Detail/type_list.h#L35)
+[Construction](https://github.com/Conzxy/TinySTL/blob/master/Detail/type_list.h#L35)
 
+[Algorithm](https://github.com/Conzxy/TinySTL/blob/master/Detail/type_list_impl.h#L106)
