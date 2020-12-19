@@ -49,22 +49,39 @@
 * [14.6 Compile-Time if Statement /编译时if语句](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch14/14.6%20Compile-Time%20if%20Statements.md)
 * [14.7 In the Standard Libaray /在标准库中](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch14/14.7%20In%20the%20Standard%20Libaray.md)
 
+## 15.Template Argument Deduction /模板实参推断
+
+* [15.1 The Deduction Process /推断过程](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch15/15.1%20The%20Deduction%20Process.md)
+* [15.2 Deduced Contexts /推断上下文](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch15/15.2%20Deduced%20Contexts.md)
+* [15.3 Special Deduction Situations /特殊推断情形](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch15/15.3%20Special%20Deduction%20Situations.md)
+
 ## 16.Specialization and Overloading /特化和重载
 
 * [16.1 When “Generic Code“ Doesn't Quiet Cut It /当“泛型代码不是很好地解决问题”时](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1%20When%20Generic%20Code%20Doesn't%20Quiet%20Cut%20It.md)
-* [16.1.1 Transparent Customization /透明定制](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.1%20Transparent%20Customization.md)
-* [16.1.2 Semantic Transparency /语义透明度](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.2%20Semantic%20Transparency.md)
+
+  * [16.1.1 Transparent Customization /透明定制](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.1%20Transparent%20Customization.md)
+
+  * [16.1.2 Semantic Transparency /语义透明度](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.1.2%20Semantic%20Transparency.md)
 * [16.2 Overloading Function Templates /重载函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2%20Overloading%20Function%20Templates.md)
-* [16.2.1 Signatures /签名式](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.1%20Signatures.md)
-* [16.2.2 Partial Ordering of Overloaded Function Templates /重载函数模板的偏序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.2%20Partial%20Ordering%20of%20Overloaded%20Function%20Templates.md)
-* [16.2.3 Formal Ordering Rules /正式排序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.3%20Formal%20Ordering%20Rules.md)
-* [16.2.4 Templates and Nontemplates /模板和非模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.4%20Templates%20and%20Nontemplates.md)
-* [16.2.5 Varadic Function Templates /可变函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.5%20Variadic%20Function%20Templates.md)
+
+  * [16.2.1 Signatures /签名式](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.1%20Signatures.md)
+
+  * [16.2.2 Partial Ordering of Overloaded Function Templates /重载函数模板的偏序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.2%20Partial%20Ordering%20of%20Overloaded%20Function%20Templates.md)
+
+  * [16.2.3 Formal Ordering Rules /正式排序规则](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.3%20Formal%20Ordering%20Rules.md)
+
+  * [16.2.4 Templates and Nontemplates /模板和非模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.4%20Templates%20and%20Nontemplates.md)
+
+  * [16.2.5 Varadic Function Templates /可变函数模板](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.2.5%20Variadic%20Function%20Templates.md)
 * [16.3 Explicit Specialization /显式特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3%20Explicit%20Specialization.md)
-* [16.3.1 Full Class Template Specialization /类模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.1%20Full%20Class%20Template%20Specialization.md)
-* [16.3.2 Full Function Templates Specialization /函数模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.2%20Full%20Function%20Template%20Specialization.md) 
-* [16.3.3 Full Variable Templates Specialization /变量模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.3%20Full%20Variable%20Template%20Specialization.md)
-* [16.3.4 Full Member Specialization /成员的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.4%20Full%20Member%20Specialization.md)
+
+  * [16.3.1 Full Class Template Specialization /类模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.1%20Full%20Class%20Template%20Specialization.md)
+
+  * [16.3.2 Full Function Templates Specialization /函数模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.2%20Full%20Function%20Template%20Specialization.md) 
+
+  * [16.3.3 Full Variable Templates Specialization /变量模板的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.3%20Full%20Variable%20Template%20Specialization.md)
+
+  * [16.3.4 Full Member Specialization /成员的全特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.3.4%20Full%20Member%20Specialization.md)
 * [16.4 Partial Class Templates Specialization /类模板的偏特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.4%20Partial%20Class%20Template%20Specialization.md)
 * [16.5 Partial Variable Templates Specialization /变量模板的偏特化](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch16/16.5%20Partial%20Variable%20Template%20Specialization.md) 
 
@@ -93,6 +110,12 @@
 
 * 19.7 Other Techniques /其他Trait技术
   * [19.7.1 If-Then-Else](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch19/19.7.1%20IfThenElse.md)
+
+Code:
+
+* [Base](https://github.com/Conzxy/TinySTL/blob/master/Detail/stl_type_traits_base.h)
+
+* [Type Traist Library](https://github.com/Conzxy/TinySTL/blob/master/Detail/stl_type_traits.h)
 
 ## 21.Template and Inheritance /第21章  模板和继承
 
