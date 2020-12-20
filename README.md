@@ -54,6 +54,9 @@
 * [15.1 The Deduction Process /推断过程](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch15/15.1%20The%20Deduction%20Process.md)
 * [15.2 Deduced Contexts /推断上下文](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch15/15.2%20Deduced%20Contexts.md)
 * [15.3 Special Deduction Situations /特殊推断情形](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch15/15.3%20Special%20Deduction%20Situations.md)
+* [15.4 Initializer Lists /初始化列表]()
+* [15.5 Parameter Packs /参数包]()
+  * [15.5.1 Literal Operator Templates /字面值运算符模板]()
 
 ## 16.Specialization and Overloading /特化和重载
 
