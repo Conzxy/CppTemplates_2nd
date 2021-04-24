@@ -8,7 +8,7 @@
 
 ```cpp
 template<class val,bool =
-    	 std::is_enum<decltype(val::value)>>
+    	 std::is_enum_v<decltype(val::value)>>
 struct has_enum_value
     :std::true_type{};
 
