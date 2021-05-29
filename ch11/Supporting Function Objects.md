@@ -1,5 +1,5 @@
 # Supporting Function Objects
-callable有一个很好的用途就是作为泛型算法的回调函数（call back），比如<alogorithm>中的泛型算法
+callable有一个很好的用途就是作为泛型算法的回调函数（call back），比如\<alogorithm>中的泛型算法
 这里举一个for_each的例子：
 ```cpp
 template<typename II,typename Func>

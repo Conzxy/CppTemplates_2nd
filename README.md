@@ -31,6 +31,15 @@
 
 * [10.5 Template Arguments versus Template Parameters /模板实参对模板参数](https://github.com/Conzxy/CppTemplates_2nd/blob/main/ch10/10.5%20Template%20Arguments%20versus%20Template%20Parameters.md) 
 
+## 11. Generic Libraries /泛型库
+
+* [11.1 callables ](ch11/callable.md)
+
+* [11.2 dealing with member function and additional arguments ](ch11/dealing with memf.md)
+
+* [11.3 supporting function objects ](ch11/Supporting Function Objects.md)
+
+* [11.4 wrapping calls ](ch11/wrapping calls)
 # 第二部分 深入模板
 
 ## 14.Instantiation /第14章  实例化
@@ -118,8 +127,11 @@
 Code:
 
 * [Base](https://github.com/Conzxy/TinySTL/blob/master/Detail/stl_type_traits_base.h)
-
 * [Type Traist Library](https://github.com/Conzxy/TinySTL/blob/master/Detail/stl_type_traits.h)
+
+## 20.Overloading on Type Properties /基于类型特性的重载
+
+* [Summary](ch20/think.md)
 
 ## 21.Template and Inheritance /第21章  模板和继承
 
