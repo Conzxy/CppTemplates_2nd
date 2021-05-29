@@ -31,7 +31,7 @@ struct has_integral_value_impl<val, typename
 
 template<class val>
 struct has_integral_value_impl<val, typename
-				std::is_member_pointer<decltype(val::value)>::type>
+				std::is_member_pointer<decltype(&val::value)>::type>
 	:std::false_type {};
 ```
 
